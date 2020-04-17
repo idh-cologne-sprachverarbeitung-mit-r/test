@@ -25,9 +25,9 @@ jobs:
     - name: Install R
       run: sudo apt-get install r-base
       
-	- name: Install R dependencies
-	  run: R -e 'install.packages("testthat")'  
-	  
+    - name: Install R dependencies
+      run: R -e 'install.packages("testthat")'  
+      
     # Runs a single command using the runners shell
     - name: Run test
       run: Rscript test.R
