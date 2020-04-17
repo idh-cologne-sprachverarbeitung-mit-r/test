@@ -1,0 +1,3 @@
+func <- function() {
+	5
+}
