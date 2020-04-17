@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install R
-      run: apt-get install r-base
+      run: sudo apt-get install r-base
       
     # Runs a single command using the runners shell
     - name: Run test
